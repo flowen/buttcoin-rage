@@ -10,8 +10,8 @@
 # unless otherwise overridden by more specific contexts.  
 [build]
   base = ""
-  publish = "public"
-  command = "npm run build"
+  publish = "dist"
+  command = "yarn build"
 
 
 # Production context: All deploys to the main
